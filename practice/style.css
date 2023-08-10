@@ -1,0 +1,295 @@
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+.container-navbar {
+    background-color: white;
+}
+
+.container-homepage {
+    background-color: #fbedea;
+}
+
+.nav-search {
+    justify-content: space-around;
+    display: flex;
+}
+
+.nav-search h2 {
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 19px;
+    color: black;
+}
+.nva-search h2 {
+    color: #646464;
+    margin: 12px;
+    padding: 13px;
+    text-align: center;
+    font-size: 18px;
+    border: 3px solid orange;
+}
+.container-fluid-Manager {
+    margin-top: 13px;
+    padding: 28px;
+    background-color: #d0f7f7;
+}
+.text-work h1 {
+    margin-bottom: 21px;
+    font-weight: 700;
+    margin-top: 26px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.gmail-btn h3 {
+    font-size: 16px;
+    color: #585757;
+}
+.gmail-btn {
+    padding: 22px;
+    border: 2px solid #fbd876;
+    background-color: white;
+    border-radius: 12px;
+ 
+}
+
+.border-lenght {
+    margin-top: 32px;
+    border-bottom: 4px solid #fbbd4b;
+    width: 54%;
+}
+.experence h1 {
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    margin-top: 29px;
+    margin-bottom: 26px;
+    color: #237c4a;
+    font-size: 28px;
+    border: none;
+}
+.experence h2 {
+    font-size: 23px;
+    font-weight: 800;
+}
+.experence {
+    width: 50%;
+    font-size: 13px;
+}
+span.light {
+    font-size: 19px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+
+.flex-left h3 {
+    padding: 8px;
+    color: seagreen;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.border-left {
+    height: 35px;
+    width: 20px;
+    border-left: 2px solid #cdcd66;
+    margin-left: 0px;
+}
+.flex-left {
+    display: flex;
+    margin-top: 21px;
+}
+.dash-board{
+    display: flex;
+    margin-top: 21px;
+}
+.dash-board{
+    height: 35px;
+    width: 20px;
+    border-left: 2px solid #cdcd66;
+    margin-left: 0px; 
+}
+.dash-board h3 {
+    padding: 8px;
+    color: seagreen;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.container-text-heading h1 {
+    margin-bottom: -28px;
+    margin-top: 46px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.experence h4 {
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: -12px;
+}
+.container-all-div {
+    display: flex;
+}
+.biodata {
+    width: 78%;
+}
+
+.container-fluid-education {
+    display: flex;
+    padding: 33px;
+}
+.container-left-side {
+    width: 50%;  
+}
+.container-bank {
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 45px;
+    border: 3px solid orange;
+    background-color: white;
+ 
+}
+.engineer-box {
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 45px;
+    border: 3px solid orange;
+    background-color: white;
+  
+}
+
+
+.box-different {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-different h1 {
+    color: #2c2c2c;
+    font-size: 25px;
+}
+.box-different h4 {
+    font-weight: 400;
+    color: #504e4e;
+    font-size: 16px;
+}
+
+.box-different1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -23px;
+}
+.container-side.-topic {
+    padding: 22px;;
+    background-color: white;
+    border-radius: 12px;
+    border: 3px solid orange;
+
+}
+.container-border-last {
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 45px;
+    border: 3px solid orange;
+    width: 50%;
+    height: 195px;
+    background-color: white;
+}
+ul {
+    margin-left: -17px;
+}
+li {
+    font-weight: 600;
+    font-size: 16px;
+    color: #5c5a5a;
+}
+
+    .container-last-topic {
+        justify-content: space-between;
+        display: flex;
+        padding: 35px;
+    
+}
+.container-single-text h1 {
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 500;
+}
+ @media (max-width:800px){
+    .container-all-div {
+        display: initial;
+    }
+    .biodata {
+       max-width: 100%;
+    }
+    .box-different1 {
+        display: initial;
+    }
+    .experence h1 {
+        max-width: 100%;
+        
+    }
+    .border-lenght {
+        margin-top: 100px;
+       
+    }
+    .engineer-box {
+        width: 100%;
+        padding: 0px;
+    }
+    .experence {
+        max-width: 100%;
+     
+    }
+    .box-different {
+        display: initial;
+    }
+    .container-fluid-education {
+        display: initial;
+    }
+    .gmail-btn {
+        max-width: 100%;
+        padding: 0px;
+    }
+    .nav-search {
+        display: initial;
+    }
+    .container-side.-topic {
+        padding: 0px;
+        margin-top: 14px;
+    }
+    ul {
+        margin-left: 0px;
+    }
+   
+    .container-border-last {
+        padding: 14px;
+        max-width: 100%;
+    }
+    .container-last-topic {
+        display: initial;
+        padding: 19px;
+    }
+    .container-all-div {
+        display: initial;
+    }
+    .container-left-side {
+        max-width: 100%;
+    }
+    .container-fluid-Manager {
+        padding: 0px;
+     
+    }
+    .container-bank {
+        padding: 0px;
+       
+    }
+       
+} 
