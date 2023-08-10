@@ -4,14 +4,13 @@ body{
     margin: 0px;
     height: 100%;
 }
-
+.container-homepage {
+    background-color: #f9f192;
+}
 .container-navbar {
     background-color: white;
 }
 
-.container-homepage {
-    background-color: #fbedea;
-}
 
 .nav-search {
     justify-content: space-around;
