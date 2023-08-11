@@ -17,6 +17,7 @@ body{
     display: flex;
 }
 
+
 .nav-search h2 {
     font-weight: 600;
     font-family: cursive;
@@ -232,7 +233,7 @@ li {
         display: initial;
     }
     .experence h1 {
-        max-width: 100%;
+        width: 100%;
         
     }
     .border-lenght {
