@@ -35,12 +35,13 @@ body{
     img {
         width: 106px;
     }
+   
     ul.differ-tools {
         list-style-type: none;
         justify-content: space-evenly;
         display: flex;
-        color: #5a5858;
-        font-size: 20px;
+        color: #efe8e8;
+        font-size: 22px;
     }
     li.tool-btn {
         font-weight: 600;
@@ -48,14 +49,16 @@ body{
     }
     .container-right h6 {
         font-weight: 500;
-        color: #787676;
-        font-size: 18px;
+        color: #d1cbcb;
+        font-size: 20px;
     }
     .container-right h1 {
         font-weight: 500;
         font-size: 30px;
-        color: black;
-    }span.bright {
+        color: #dbd9d9;
+    }
+    
+    span.bright {
         font-weight: 500;
         color: red;
     }
@@ -65,11 +68,19 @@ body{
         margin-bottom: -22px;
         margin-top: 10px;
     }
-    
     .container-right h2 {
         font-weight: 600;
-        color: #3a3939;
+        color: #bdb7b7;
         font-size: 22px;
+        margin-bottom: -24px;
+    }
+   
+    .container-left h6 {
+        margin-top: 17px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 2px;
+        color: #cbc9c9;
     }
     .container-right h4 {
         color: #393991;
@@ -154,13 +165,7 @@ body{
         font-weight: 600;
         font-size: 24px;
     }
-    .container-left h6 {
-        margin-top: 17px;
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 2px;
-        color: #3c3b3b;
-    }
+   
     .container-left p {
         font-weight: 600;
         color: #4e4d4d;
