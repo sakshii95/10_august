@@ -1,0 +1,290 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.nav-list {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.google-link a {
+    font-size: 21px;
+    color: #eb4141;
+    margin-left: 16px;
+}
+.nav-list h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #eb4141;
+    font-size: 30px;
+}
+.btn-row {
+    display: flex;
+    align-items: center;
+   
+}
+.btn-row h3 {
+    margin-left: 28px;
+    color: #484747;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+.btn-row h4 {
+    color: #666565;
+    font-size: 19px;
+    margin-left: 16px;
+}
+.btn-row p {
+    font-family: ui-sans-serif;
+    font-size: 19px;
+    color: #403f3f;
+}
+.btn-row {
+    border-radius: 53px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d7d3d3;
+}
+
+
+.container-left {
+    display: flex;
+    justify-content: space-between;
+}
+span.bright {
+    font-family: sans-serif;
+    font-size: 28px;
+    color: red;
+}
+.education-cont h1 {
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.container-elect h2 {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #101010;
+    font-size: 19px;
+}
+
+.container-elect h3 {
+    margin-top: -12px;
+    font-weight: 500;
+    color: #343333;
+    margin-bottom: -2px;
+}
+ul.list2 li {
+    color: #484646;
+  
+}
+.one-row {
+    display: flex;
+}
+.two-row {
+    margin-top: -19px;
+    display: flex;
+    margin-bottom: -20px;
+}
+
+.two-row h5{border-radius: 23px;
+    padding: 10px 11px;
+    background-color: #fdeaee;
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #11114c;
+    margin-top: 13px;
+
+}
+.box {
+    display: flex;
+}
+.box  h5{
+    border-radius: 23px;
+    padding: 10px 11px;
+    background-color: #fdeaee;
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #11114c;
+    margin-top: 13px;
+}
+.first-div h2 {
+    color: #161616;
+    font-size: 20px;
+    margin-top: -8px;
+}
+.border-lenght4 {
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 15px;
+ 
+}
+
+    .container-elect {
+        border-radius: 7px;
+        border: 1px solid gray;
+        padding: 42px;
+    }
+  
+
+
+p {
+    font-size: 19px;
+    color: #484646;
+}
+.project1 {
+    display: flex;
+    align-items: center;
+}
+
+.con-vegs {
+    display: flex;
+    align-items: center;
+}
+.container-project {
+    justify-content: space-between;
+    display: flex;
+}
+.project1 h2 {
+    border-radius: 6px;
+    color: wheat;
+    background-color: #df2626;
+    font-size: 19px;
+    padding: 9px 17px;
+}
+.project1 h3 {
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 14px;
+}
+
+.con-vegs h4 {
+    font-weight: 500;
+    border-radius: 6px;
+    font-size: 19px;
+    padding: 9px 17px;
+    border: 1px solid;
+}
+.con-vegs h3 {
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 14px;
+
+}
+ul.list-prediction li {
+    margin-top: 16px;
+    color: #666262;
+    font-size: 18px;
+}
+ul.list1 li {
+    margin-top: 16px;
+    color: #525050;
+    font-size: 18px;
+}
+
+.cont-prediction h3 {
+    font-weight: 500;
+    color: #5c5b5b;
+    font-size: 20px;
+}
+.border-bottom {
+    border-bottom: 1px solid #b7b4b4;
+}
+.boredr-lenght2 {
+    border-bottom: 1px solid grey;
+}
+h4 {
+    color: #626060;
+    font-size: 20px;
+}
+.one-row h5 {
+    border-radius: 23px;
+    padding: 10px 11px;
+    background-color: #fdeaee;
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #11114c;
+    margin-top: 13px;
+}
+
+
+@media (max-width:600px){
+    .box {
+        display: initial;
+    }
+    .con-vegs h3 {
+        margin-left: 0px;
+    
+    }
+    .border-lenght4 {
+      
+        width: 100%;
+    }
+    .container-elect {
+        
+        width: 100%;
+    }
+
+    .two-row {
+        display: initial;
+    }
+    .education-cont {
+        width: 100%;
+    }
+    .one-row {
+        display: initial;
+    }
+    .container-elect {
+        padding: 15px;
+    }
+    .nav-list {
+      
+        display:initial;
+    }
+    .btn-row {
+        display: initial;  
+    }
+    .btn-row h4 {
+        margin-left: 0px;
+    }
+    
+    .container-left {
+        display: initial;
+     
+    }
+    .btn-row h3 {
+        margin-left: 0px;
+    }
+    .project1 {
+        display: initial;
+        
+    }
+    .con-vegs {
+        display: initial;
+      
+    }
+    .project1 h3 {
+        margin-left: 0px;
+    }
+
+.container-project {
+    display: initial;
+}
+.homepage {
+    padding: 0px;
+}
+
+}
