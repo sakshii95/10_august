@@ -69,8 +69,16 @@ span.box-m2 {
 .san-area {
     display: flex;
 }
+.diff-container h3 {
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 17px;
+    margin-left: 16px;
+    border: 1px solid;
+}
 .product-manager {
     display: flex;
+    margin-top: 26px;
 }
 .text-center {
     border: none;
@@ -95,11 +103,7 @@ span.box-m2 {
     padding: 12px;
     border: 1px solid #c36868;
 }
-.right-container1 {
-    margin-left: 48px;
-    border: 1px solid;
-    padding: 12px;
-}
+
 .container-left-side {
     padding: 12px;
     border: 1px solid #c36868;
@@ -129,10 +133,17 @@ span {
     margin: auto;
     text-align: center;
     margin-top: 19px;
+    font-size: 9px;
 }
 .container-model2 {
     border: 2px solid #b74d4d;
     margin-top: 15px;  
+}
+.right-container1 {
+    margin-left: 48px;
+    border: 1px solid;
+    padding: 12px;
+    width: 50%;
 }
 @media (max-width:600px){
 
@@ -175,6 +186,11 @@ span {
     .container-left-side {
         margin-left: 0px;
     }
+    .right-container1 {
+        margin-left: 0px;
+        width: 100%;
+    }
+    
 
 }
       
