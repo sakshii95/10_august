@@ -1,0 +1,293 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container-seprate-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #efefef;
+}
+
+.seprate p {
+    color: #5c5a5a;
+    font-size: 20px;
+}
+
+.button {
+    border-radius: 12px;
+    padding: 0px 25px;
+    color: white;
+    background-color: #df3434;
+    font-size: 13px;
+}
+
+ul.list li {
+    color: #4e4a4a;
+}
+
+.navbar-row {
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    background-color: #df3434;
+    align-items: center;
+}
+
+.container-right p {
+    color: #666464;
+    font-size: 18px;
+}
+
+.next-row {
+    display: flex;
+    margin-bottom: -18px;
+}
+
+ul.list1 li {
+    font-size: 20px;
+    color: #5e5b5b;
+    list-style-type: none;
+}
+
+.second-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    border: none;
+    padding: 12px ;
+    border-radius: 29px;
+    width: 100%;
+}
+
+.next-row h4,
+.seprate h4 {
+    color: #625f5f;
+    margin-left: 26px;
+    margin-top: 9px;
+    font-size: 18px;
+}
+
+.reviews h1 {
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.border-lenght {
+    border-bottom: 2px solid #b95656;
+}
+
+ul.list1 li {
+    color: #2a2828;
+    font-size: 19px;
+}
+
+.navbar-box p,
+.mail-container h4 {
+    font-weight: 500;
+    color: #787575;
+    font-size: 15px;
+}
+
+.mail-container {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.biodata h1 {
+    font-family: sans-serif;
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.biodata h3 {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ada6a6;
+}
+
+.biodata h2 {
+    margin-top: -9px;
+    color: #f94747;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.container-data p {
+    color: #5c5b5b;
+    font-size: 16px;
+}
+
+.container-seprate-box {
+    display: flex;
+}
+
+.digital h4 {
+    font-size: 12px;
+    color: white;
+    width: 73%;
+    padding: 9px 14px;
+    background-color: #d91c1c;
+    border-radius: 8px;
+    margin-top: 54px;
+}
+
+.container-right h1,
+.container-right h3 {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+span.light {
+    font-weight: 500;
+    color: #0d0d0d;
+    font-family: sans-serif;
+}
+
+.container-right p {
+    font-weight: 600;
+    color: #3a3838;
+    font-size: 18px;
+}
+
+.list-titles h3 {
+    font-weight: 500;
+    color: #898484;
+    margin-left: 24px;
+    font-size: 16px;
+}
+
+.links-cont li {
+    list-style-type: none;
+    margin-top: 12px;
+    color: #727070;
+}
+
+.container-left h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.container-elect h2 {
+    font-family: sans-serif;
+    color: #403f3f;
+    font-size: 15px;
+}
+
+.container-elect h3 {
+    margin-top: -10px;
+    color: #484747;
+    font-size: 15px;
+    margin-bottom: -12px;
+}
+
+ul.list2 li {
+    font-size: 15px;
+    color: #404040;
+    margin-left: -19px;
+}
+
+.container-elect {
+    margin-top: -14px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.box h5 {
+    border-radius: 5px;
+    padding: 7px 11px;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+.first-div h5 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    font-size: 12px;
+    border-radius: 7px;
+    padding: 11px 0px;
+    border: 1px solid gray;
+    width: 22%;
+    margin-left: 8px;
+    background-color: white;
+}
+
+.one-row h5,
+.two-row h5 {
+    border-radius: 30px;
+    padding: 7px 11px;
+    border: 1px solid;
+}
+
+.second-div h5 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    font-size: 12px;
+    border-radius: 7px;
+    padding: 11px 0px;
+    border: 1px solid gray;
+    width: 29%;
+    margin-left: 8px;
+    background-color: white;
+}
+.signup-btn {
+    margin-left: 33px;
+}
+
+@media (max-width: 400px) {
+    .second-div h5,
+    .first-div h5 {
+        width: 100%;
+    }
+   
+
+    .second-row,
+    .next-row,
+    .seprate h4 {
+        display: initial;
+    }
+
+    .navbar-row,
+    .navbar,
+    .container-seprate-box {
+        display: initial;
+        width: 100%;
+    }
+
+    ul.list2 li,
+    .container-left {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .box,
+    .one-row,
+    .two-row {
+        display: initial;
+    }
+    
+    .container-right {
+        width: 100%;
+    }
+input[type="text"] {
+    padding: 0px;
+
+}
+.signup-btn {
+    margin-left: 0px;
+}
+}
+

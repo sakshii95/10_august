@@ -8,7 +8,9 @@ body{
 box-sizing: border-box;
 }
 
-
+.container-model p {
+    font-size: 21px;
+}
 .container-homepage {
     color: white;
     background-color: black;
@@ -59,6 +61,74 @@ span.box-m2 {
 .container-model1 {
     border: 2px solid #b74d4d;
     margin-top: 15px;
+    padding: 12px;
+}
+.diff-container {
+    display: flex;
+}
+.san-area {
+    display: flex;
+}
+.product-manager {
+    display: flex;
+}
+.text-center {
+    border: none;
+    background-color: #3a263a;
+    border-radius: 47px;
+    padding: 9px 29px;
+    display: table;
+    margin: auto;
+    text-align: center;
+    margin-top: 19px;
+    font-size: 9px;
+    margin-bottom: 24px;
+}
+.contaner-experence {
+    display: flex;
+}
+.left-container1 {
+    border: 1px solid #995151;
+    padding: 12px;
+}
+.container-right-side {
+    padding: 12px;
+    border: 1px solid #c36868;
+}
+.right-container1 {
+    margin-left: 48px;
+    border: 1px solid;
+    padding: 12px;
+}
+.container-left-side {
+    padding: 12px;
+    border: 1px solid #c36868;
+    margin-left: 48px;   
+}
+.left-container h1 {
+    font-size: 30px;
+}
+span {
+    font-weight: 500;
+    font-size: 23px;
+}
+.product-container {
+    padding: 10px;
+    border: 1px solid;
+}
+.product-management {
+    padding: 10px;
+    border: 1px solid; 
+}
+.text-center1 {
+    border: none;
+    background-color: #3a263a;
+    border-radius: 47px;
+    padding: 13px 41px;
+    display: table;
+    margin: auto;
+    text-align: center;
+    margin-top: 19px;
 }
 .container-model2 {
     border: 2px solid #b74d4d;
@@ -97,6 +167,12 @@ span.box-m2 {
         margin-left: 0px;
     }
     .top-div h3 {
+        margin-left: 0px;
+    }
+    .product-manager {
+        display: initial;
+    }
+    .container-left-side {
         margin-left: 0px;
     }
 
