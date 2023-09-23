@@ -5,9 +5,15 @@ body{
         height: 100%;
 }
 .home-container {
-    width: 100%;
-    color: white;
+   margin: 20px;
+}
+.shadow{
+    max-width: 1100px;
+    margin: auto;
+    display: table;
     background-color: black;
+    color: white;
+    border: 1px solid rgb(221, 220, 220);
 }
 .nav-top {
     background-color: #444343;
@@ -51,7 +57,7 @@ body{
     font-size: 23px;
     font-weight: 500;
     background-color: #d30e0e;
-    width: 33%;
+   
 }
 
 span.light {
@@ -100,13 +106,14 @@ ul.list1 li {
 .left-container {
     width: 50%;
     margin-top: -51px;
+    margin-left: 27px;
 }
 
 .left-container h3 {
     font-weight: 500;
     font-size: 21px;
     text-decoration: underline;
-    margin-bottom: -18px;
+    margin-bottom: 11px;
 }
 .left-container h4 {
     margin-bottom: -17px;
@@ -183,10 +190,15 @@ ul.list2 li {
     color: white;
 }
 
+.profile a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
 .two-row h5 {
     text-align: center;
     border-radius: 8px;
-    padding: 6px 26px;
+    padding: 14px;
     border: 1px solid #726f6f;
     margin-left: 11px;
     font-size: 14px;
@@ -194,17 +206,14 @@ ul.list2 li {
 }
 
 @media (max-width:600px){
-    .two-row h5 {
-        margin-left: 0px;
-    
-    }
+   
     .second-div h4 {
         margin-left: 0px;
         width: 100%;
        
     }
     .two-row h5 {
-        width: 100%;
+       
         margin-left: 0px; 
     }
     .one-row h5 {
@@ -215,9 +224,7 @@ ul.list2 li {
         width: 100%;
         margin-left: 0px;
     }
-    .container-technical h1 {
-        width:  100%;
-    }
+ 
     .one-row {
         display: initial;
     }
@@ -236,11 +243,9 @@ ul.list2 li {
     
     }
     
-    .left-container {
-        max-width: 100%;
-    }
+   
     .container-technical {
-       max-width: 100%;
+       width: 100%;
     }
     .biodata {
         width: 100%;
@@ -280,5 +285,9 @@ max-width: 100%;
 .border-lenght1 {
     margin-top: 0px;
    
+}
+.left-container {
+    width: 100%;
+    margin-left: 0px;
 }
 }

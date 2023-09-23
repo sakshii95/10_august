@@ -6,6 +6,15 @@
     background-color: white;
     border-radius: 6px;
 }
+.shadow{
+
+    max-width: 1100px;
+    margin: auto;
+    border: 1px solid rgb(236, 234, 234);
+}
+.homepage{
+    margin: 20px;
+}
 select.search-select {
     border-bottom-right-radius: 2px;
     border: none;
@@ -301,7 +310,7 @@ ul.list2 li {
 
         .second-div h5 {
             margin-left: 0px;
-            width: 100%;
+         
         }
         .container-details {
             display: initial;
@@ -310,7 +319,12 @@ ul.list2 li {
 
 .first-div h5 {
     margin-left: 0px;
-    width: 100%;
+   
+  
+}
+.navbar {
+    height: 0px;
+    display: initial;
   
 }
 

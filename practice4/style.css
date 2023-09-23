@@ -6,6 +6,11 @@
     display: flex;
     align-items: center;
 }
+.shadow{
+    max-width: 1100px;
+    margin: auto;
+    border: 1px solid rgb(252, 251, 251);
+}
 
 .nav-items {
     display: flex;
@@ -237,5 +242,45 @@ ul.list2 li {
         width: 22%;
         background: red;
     }
+    .profile a {
+        font-weight: 600;
+        text-decoration: none;
+        color: #e30404;
+        font-size: 21px;
+    }
+    .profile h3 {
+        margin-top: 43px;
+        font-size: 21px;
+        margin-bottom: 7px;
+    }
+    .resume-section h2 {
+        font-family: sans-serif;
+        font-size: 28px;
+    }
+
+
+@media (max-width:600px){
+
+    .container-seprate-box {
+        display: initial;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
