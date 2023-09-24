@@ -5,7 +5,15 @@ body{
     margin: 0px;
 }
 
+.shadow{
 
+    max-width: 1100px;
+    margin: auto;
+    border: 1px solid rgb(236, 234, 234);
+}
+.homepage{
+    margin: 15px;
+}
 
 
 .nav-list {
@@ -29,6 +37,10 @@ body{
     align-items: center;
    
 }
+.btn-row1 {
+    border-radius: 34px;
+    border: 1px solid grey;
+}
 .btn-row h3 {
     margin-left: 28px;
     color: #484747;
@@ -46,12 +58,7 @@ body{
     font-size: 19px;
     color: #403f3f;
 }
-.btn-row {
-    border-radius: 53px;
-    display: flex;
-    align-items: center;
-    border: 1px solid #d7d3d3;
-}
+
 
 
 .container-left {
@@ -119,19 +126,21 @@ ul.list2 li {
 .first-div h2 {
     color: #161616;
     font-size: 20px;
-    margin-top: -8px;
+  
 }
 .border-lenght4 {
     border-radius: 7px;
     border: 1px solid gray;
     padding: 15px;
+    height: 307px;
  
 }
 
     .container-elect {
         border-radius: 7px;
         border: 1px solid gray;
-        padding: 42px;
+        padding: 17px;
+        height: 307px;
     }
   
 
@@ -230,15 +239,26 @@ h4 {
     
     }
     .border-lenght4 {
-      
+      padding: 0px;
         width: 100%;
     }
     .container-elect {
-        
+        padding: 0px;
         width: 100%;
     }
+   
+    .btn-row h3 {
+        margin-left: 0px;
 
+    }
+    .btn-row {
+        display: initial;
+    }
+    .one-row {
+        display: initial;
+    }
     .two-row {
+       
         display: initial;
     }
     .education-cont {
@@ -247,16 +267,11 @@ h4 {
     .one-row {
         display: initial;
     }
-    .container-elect {
-        padding: 15px;
-    }
+    
     .nav-list {
-      
         display:initial;
     }
-    .btn-row {
-        display: initial;  
-    }
+   
     .btn-row h4 {
         margin-left: 0px;
     }

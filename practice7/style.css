@@ -7,8 +7,16 @@ body {
 
 .container-seprate-box {
     display: flex;
-    flex-wrap: wrap;
+    padding: 12px;
     background-color: #efefef;
+}
+.top-container-home{
+    margin: 15px;
+}
+.shadow{
+    max-width: 1100px;
+    margin: auto;
+    border: 1px solid rgb(240, 238, 238);
 }
 
 .seprate p {
@@ -28,12 +36,14 @@ ul.list li {
     color: #4e4a4a;
 }
 
+
 .navbar-row {
     color: white;
     justify-content: space-between;
     display: flex;
     background-color: #df3434;
     align-items: center;
+    padding: 10px;
 }
 
 .container-right p {
@@ -128,9 +138,7 @@ ul.list1 li {
     font-size: 16px;
 }
 
-.container-seprate-box {
-    display: flex;
-}
+
 
 .digital h4 {
     font-size: 12px;
@@ -219,9 +227,13 @@ ul.list2 li {
     border-radius: 7px;
     padding: 11px 0px;
     border: 1px solid gray;
-    width: 22%;
+    width: 55%;
     margin-left: 8px;
     background-color: white;
+}
+.container-left {
+    width: 50%;
+    margin-left: 64px;
 }
 
 .one-row h5,
@@ -230,7 +242,9 @@ ul.list2 li {
     padding: 7px 11px;
     border: 1px solid;
 }
-
+.container-right {
+    width: 50%;
+}
 .second-div h5 {
     text-align: center;
     margin-bottom: 5px;
@@ -239,7 +253,7 @@ ul.list2 li {
     border-radius: 7px;
     padding: 11px 0px;
     border: 1px solid gray;
-    width: 29%;
+    width: 60%;
     margin-left: 8px;
     background-color: white;
 }
@@ -247,25 +261,21 @@ ul.list2 li {
     margin-left: 33px;
 }
 
-@media (max-width: 400px) {
-    .second-div h5,
-    .first-div h5 {
-        width: 100%;
-    }
-   
+.profile a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 23px;
+    color: #d70707;
+}
 
+@media (max-width: 600px) {
+   
     .second-row,
     .next-row,
     .seprate h4 {
         display: initial;
     }
 
-    .navbar-row,
-    .navbar,
-    .container-seprate-box {
-        display: initial;
-        width: 100%;
-    }
 
     ul.list2 li,
     .container-left {
@@ -288,6 +298,19 @@ input[type="text"] {
 }
 .signup-btn {
     margin-left: 0px;
+}
+.container-right {
+    width: 100%;
+}
+.container-left {
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+.navbar-row {
+    display: initial;
+   
 }
 }
 
