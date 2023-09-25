@@ -46,14 +46,15 @@
     margin-top: -24px;
     font-family: sans-serif;
 }
+
 .link-list1 h3 {
     font-size: 17px;
-    color: #069fc3;
+    color: #040c6e;
 }
-.list2 h3 {
 
+.list2 h3 {
     font-size: 17px;
-    color: #069fc3; 
+    color: #040c6e;
 }
 
 .first-div h3 {
@@ -70,11 +71,8 @@ span.dark {
     font-size: 17px;
 }
 
-
-
-
 .navbar-list {
-    background-color: #046999;
+    background-color: #044e22;
     color: white;
 }
 .link-div {
@@ -193,12 +191,13 @@ span.light-part {
     color: #484848;
     font-size: 16px;
 }
+
 .present-div {
     border-radius: 10px;
     border: 1px solid #dfdcdc;
     padding: 8px;
     width: 50%;
-    background-color: #ecf8fd;
+    background-color: #e4e7e9;
     margin-left: 10px;
 }
 .more-div {
@@ -206,21 +205,21 @@ span.light-part {
     display: flex;
     justify-content: space-between;
 }
-
-
 .container-academic {
     border-radius: 10px;
     border: 1px solid #dfdcdc;
     padding: 8px;
     width: 50%;
-    background-color: #ecf8fd;
+    background-color:#e4e7e9;
 }
+
+
 .container-achievement {
     border-radius: 10px;
     border: 1px solid #dfdcdc;
     padding: 8px;
     width: 50%;
-    background-color: #ecf8fd;
+    background-color: #e4e7e9;
     margin-left: 10px;
   
 }

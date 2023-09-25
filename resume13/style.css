@@ -207,10 +207,6 @@ body{
         font-size: 28px;
     }
     
-    
-    
-    
-    
     @media (max-width: 600px){
         .navbar {
             display: initial;

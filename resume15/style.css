@@ -87,9 +87,10 @@ select {
     padding: 5px;
 }
 
+
 .para-div {
     color: white;
-    background-color: #4a3a4a;
+    background-color: #235cb1;
     text-align: center;
     padding: 7px;
 }
@@ -106,11 +107,12 @@ select {
 }
  
 
+
 .third-div h2 {
     margin-top: 6px;
     margin-bottom: -4px;
     font-size: 20px;
-    color: #e14141; 
+    color: #4b22eb;
 }
 
 .first-div h1 {
@@ -198,12 +200,13 @@ select {
     color: #0b96a5;
 }
 
+
 .tech-div-management h4 {
     margin-left: 17px;
     font-size: 12px;
     padding: 9px 15px;
     color: white;
-    background-color: #bd3c3c;
+    background-color: #0749ad;
 }
 .tech-div-management h5 {
     margin-left: 20px;
@@ -215,22 +218,26 @@ select {
     font-size: 18px;
     color: #2bd6e7;
 }
-
 .tech-div {
     border-radius: 6px;
-    border: 1px solid #53f1e2;
+    border: 1px solid #5087ed;
+    margin-top: 18px;
 }
+
+
 ul.list1 li {
     margin-top: 12px;
     list-style-type: none;
     color: #565050;
     font-family: serif;
 }
+
+
 .right-div h2 {
     margin-top: 6px;
     margin-bottom: -4px;
     font-size: 20px;
-    color: #e14141;
+    color: #1525f3;
 }
 .project1 h1 {
     font-family: sans-serif;
@@ -248,11 +255,7 @@ ul.list1 li {
 .border-lenght1 {
     border-bottom: 1px solid #e12f2f;
 }
-ul.list li {
-    list-style-type: none;
-    color: #e12f2f;
-    margin-top: 11px;
-}
+
 
 .project h1 {
     font-family: sans-serif;
@@ -271,11 +274,17 @@ ul.list1 li {
     font-size: 16px;
     color: #6c6868;
 }
+ul.list li {
+    list-style-type: none;
+    color: #0a53a1;
+    margin-top: 11px;
+}
+
 .prediction-div {
     margin-top: 13px;
     border-radius: 4px;
     border: 2px solid #dddada;
-    background-color: #4a3a4a;
+    background-color: #413f9d;
 }
 ul.list2 li {
     margin-top: 12px;

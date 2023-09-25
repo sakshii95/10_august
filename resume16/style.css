@@ -14,9 +14,10 @@ body{
         margin: 30px;
 
     }
+   
     .nav-sys {
         color: white;
-        background-color: black;
+        background-color: #333187;
         padding: 10px;
     }
    
@@ -85,13 +86,13 @@ body{
         padding: 12px;
         background-color: white;
     }
+   
     .right-div {
         color: white;
-        background-color: #266a5b;
+        background-color: #25769b;
         width: 50%;
         padding: 13px;
     }
-    
     .training-div {
         padding: 9px;
         width: 100%;
@@ -125,6 +126,7 @@ body{
         margin-top: 9px;
         margin-bottom: -13px;
     }
+   
     .container-left h4 {
         text-align: center;
         border-radius: 6px;
@@ -184,10 +186,12 @@ body{
         color: #3aabab;
     }
     
+   
     .footer {
+        text-align: center;
         padding: 1px;
         color: white;
-        background-color: black;
+        background-color: #0923a3;
     }
     
   
@@ -212,6 +216,7 @@ body{
         margin-top: 13px;
         list-style-type: none;
     }
+   
    
     ul.list1 li {
         margin-top: 12px;
@@ -268,11 +273,7 @@ body{
         margin-left: 41px;
     }
    
-    /* .first-div-right {
-        background-color: white;
-        border: 1px solid #d5d3d3;
-        padding: 5px;
-    } */
+   
     .year-div h5 {
         color: #2da172;
         font-size: 17px;
@@ -289,9 +290,10 @@ body{
     .join-div {
         display: flex;
     }
+    
     .container-elect {
         color: white;
-        background-color: #306c30;
+        background-color: #21207e;
         width: 50%;
         padding: 13px;
     }
@@ -307,9 +309,10 @@ li {
     border: 1px solid;
 }
 
+
 ul.list3 {
     padding: 9px;
-    background-color: #f3f1f1;
+    background-color: #0646a7;
 }
 .list1 li.list-sys {
     color: #4e4e4e;

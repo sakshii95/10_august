@@ -39,9 +39,10 @@ input[type="text"] {
         margin-left: 18px;
     
 }
+
 .first-div {
     color: white;
-    background-color: #2727bd;
+    background-color: #02405c;
     display: flex;
     flex-wrap: wrap;
     padding: 11px;
@@ -50,8 +51,9 @@ input[type="text"] {
     color: white;
     justify-content: space-between;
     display: flex;
-    background-color: #2222c1;
+    background-color: #04045c;
 }
+
 
 .sep-div1 {
     display: flex;
@@ -198,7 +200,7 @@ li.list3 {
 }
 .container-achievement {
     border-radius: 7px;
-    background-color: blue;
+    background-color: #1a1a5e;
     width: 50%;
     color: white;
     margin-top: 10px;
@@ -210,11 +212,12 @@ li.list3 {
     width: 50%;
     padding: 10px;
     color: white;
-    background-color: #0a0ae9;
+    background-color: #1a1a5e;
     margin-left: 13px;
     border-radius: 9px;
     margin-bottom: 19px;
 }
+
 .left-side-div p {
     color: #403e3e;
     font-size: 16px;
@@ -254,7 +257,7 @@ span.dark-text h2 {
    
 }
 .container-academic {
-    background-color: blue;
+    background-color: #1a1a5e;
     width: 50%;
     color: white;
     padding: 7px;
