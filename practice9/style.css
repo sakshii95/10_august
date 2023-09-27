@@ -150,6 +150,11 @@ ul.list2 li {
         font-size: 27px;
         font-family: sans-serif;
     }
+    .container2 h1 {
+        font-size: 27px;
+        font-family: sans-serif;
+
+    }
 p {
     font-size: 19px;
     color: #484646;
@@ -250,6 +255,32 @@ h4 {
 .container-left h2 {
     font-size: 16px;
 }
+.resume-section h2 {
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: center;
+  
+}
+.profile a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fb5d2c;
+}
+.profile h3 {
+    font-size: 21px;
+}
+
+.profile {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.resume-section {
+    border-radius: 15px;
+    border: 1px solid #d7d2d2;
+}
+
 
 
 @media (max-width:600px){

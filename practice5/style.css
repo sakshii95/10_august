@@ -35,10 +35,13 @@ input.search-input {
 .navbar{
 height: 60px;
 color: white;
-background-color: black;
+align-items: center;
 display: flex;
 justify-content: space-between;
 
+}
+.navbar-list{
+    background-color: black;
 }
 
 

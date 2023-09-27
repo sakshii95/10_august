@@ -264,6 +264,18 @@ ul.list2 li {
     .container-seprate-box {
         display: initial;
     }
+    .nav-items {
+        display: initial;
+        
+    }
+    .mail-container {
+        margin-left: 0px;
+        display:initial;
+      
+    }
+    .container-candidate {
+        display: initial
+    }
 }
 
 
