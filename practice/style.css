@@ -8,16 +8,18 @@ body{
     margin: auto;
     display: table;
     max-width: 1100px;
-    border: 1px solid rgb(238, 237, 237);
-    background-color: #f9f192;
+   
+
 
 }
-.container{
-  
-margin: 15px;
+.container {
+    margin: 14px;
+    border: 1px solid rgb(238, 237, 237);
+    background-color: #f9f192;
 }
 .container-navbar {
     background-color: white;
+    margin-top: 14px;
 }
 
 
@@ -45,7 +47,7 @@ margin: 15px;
 }
 .container-fluid-Manager {
     margin-top: 13px;
-    padding: 28px;
+    padding: 10px;
     background-color: #d0f7f7;
 }
 .text-work h1 {
@@ -75,8 +77,8 @@ margin: 15px;
     width: 54%;
 }
 .experence h1 {
-    width: 40%;
-    padding: 10px;
+    width: 50%;
+    padding: 7px;
     background-color: white;
     margin-top: 29px;
     margin-bottom: 26px;
@@ -100,7 +102,7 @@ span.light {
 
 
 .flex-left h3 {
-    padding: 8px;
+    padding: 4px;
     color: seagreen;
     font-size: 18px;
     margin-top: 0px;
@@ -149,7 +151,7 @@ span.light {
     display: flex;
 }
 .biodata {
-    width: 78%;
+    width: 70%;
     padding: 9px;
 }
 
@@ -166,6 +168,7 @@ span.light {
     padding: 45px;
     border: 3px solid orange;
     background-color: white;
+    width: 60%;
  
 }
 .engineer-box {
@@ -174,7 +177,7 @@ span.light {
     padding: 45px;
     border: 3px solid orange;
     background-color: white;
-  
+    width: 60%;
 }
 
 
@@ -204,11 +207,11 @@ span.light {
     border-radius: 12px;
     border: 3px solid orange;
     width: 50%;
+    margin-left: 18px;
 
 }
 .container-border-last {
     border-radius: 12px;
-    margin-top: 20px;
     padding: 4x;
     border: 3px solid orange;
     width: 50%;
@@ -227,7 +230,7 @@ li {
     .container-last-topic {
         justify-content: space-between;
         display: flex;
-        padding: 35px;
+        padding: 20px;
     
 }
 .container-single-text h1 {
@@ -262,16 +265,11 @@ li {
     .container-all-div {
         display: initial;
     }
-    .biodata {
-       max-width: 100%;
-    }
+    
     .box-different1 {
         display: initial;
     }
-    .experence h1 {
-        width: 100%;
-        
-    }
+   
     .border-lenght {
         margin-top: 100px;
        
@@ -281,7 +279,7 @@ li {
         padding: 0px;
     }
     .experence {
-        max-width: 100%;
+    width: 100%;
      
     }
     .box-different {
@@ -309,10 +307,7 @@ li {
     
         width: 100%;
     }
-    .container-last-topic {
-        display: initial;
-        padding: 19px;
-    }
+  
     .container-all-div {
         display: initial;
     }
@@ -325,11 +320,17 @@ li {
     }
     .container-bank {
         padding: 0px;
-       
+       width: 100%;
     }
     .container-side.-topic {
-      
+      margin-left: 0px;
         width: 100%;
     }
-       
+    .container-border-last {
+        margin-top: 20px;
+    }
+    .container-last-topic {
+        display: initial;
+        padding: 0px;
+    }
 } 
