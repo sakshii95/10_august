@@ -199,19 +199,20 @@ span.light {
     margin-bottom: -23px;
 }
 .container-side.-topic {
-    padding: 22px;;
+    padding: 5px;;
     background-color: white;
     border-radius: 12px;
     border: 3px solid orange;
+    width: 50%;
 
 }
 .container-border-last {
     border-radius: 12px;
     margin-top: 20px;
-    padding: 45px;
+    padding: 4x;
     border: 3px solid orange;
     width: 50%;
-    height: 195px;
+    /* height: 195px; */
     background-color: white;
 }
 ul {
@@ -236,7 +237,7 @@ li {
     font-weight: 500;
 }
 .resume-section {
-    padding: 9px;
+    padding: 3px;
     border-radius: 10px;
     background: white;
     margin-top: 64px;
@@ -290,7 +291,7 @@ li {
         display: initial;
     }
     .gmail-btn {
-        max-width: 100%;
+
         padding: 0px;
     }
     .nav-search {
@@ -305,8 +306,8 @@ li {
     }
    
     .container-border-last {
-        padding: 14px;
-        max-width: 100%;
+    
+        width: 100%;
     }
     .container-last-topic {
         display: initial;
@@ -325,6 +326,10 @@ li {
     .container-bank {
         padding: 0px;
        
+    }
+    .container-side.-topic {
+      
+        width: 100%;
     }
        
 } 
