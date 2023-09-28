@@ -8,11 +8,10 @@ body{
 .shadow {
     max-width: 1100px;
     margin: auto;
-    
     display: table;
 }
 .homepage{
-    margin: 15px;
+    margin: 14px;
     border: 1px solid rgb(236, 234, 234);
 }
 
@@ -27,7 +26,11 @@ body{
     color: #eb4141;
     margin-left: 16px;
 }
-.nav-list h1 {
+.cont-prediction h1 {
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.text h1 {
     font-family: sans-serif;
     font-weight: 600;
     color: #eb4141;
@@ -36,23 +39,23 @@ body{
 .btn-row {
     display: flex;
     align-items: center;
-   
+    justify-content: space-evenly;
+  
 }
 .btn-row1 {
     border-radius: 34px;
-    border: 1px solid grey;
+    border: 1px solid grey;  
+    width: 100%;
 }
 .btn-row h3 {
-    margin-left: 20px;
     color: #484747;
     font-weight: 500;
     font-family: sans-serif;
-    font-size: 19px;
+    font-size: 16px;
 }
 .btn-row h4 {
     color: #666565;
     font-size: 16px;
-    margin-left: 10px;
 }
 .btn-row p {
     font-family: ui-sans-serif;
@@ -172,7 +175,7 @@ p {
     border-radius: 10px;
 }
 .container-left {
-    padding: 6px;
+    padding: 4px;
     border: 2px solid #bdbbbb;
     border-radius: 10px;
 
@@ -208,7 +211,7 @@ p {
     font-size: 19px;
     padding: 9px 17px;
     border: 1px solid;
-    width: 62%;
+    width: 60%;
 }
 
 
@@ -308,10 +311,7 @@ h4 {
         width: 100%;
     }
    
-    .btn-row h3 {
-        margin-left: 0px;
-
-    }
+  
   
     .btn-row {
         display: initial;
@@ -343,9 +343,7 @@ h4 {
      
         display: initial;
     }
-    .btn-row h3 {
-        margin-left: 0px;
-    }
+   
     .project1 {
         display: initial;
         
@@ -374,17 +372,16 @@ h4 {
 }
 .one-row h5 {
    margin-left: 0px;
-   width: 45%;
 }
 .two-row h5 {
     margin-left: 0px;
-    width: 45%;
-  
 }
 .box h5 {
     margin-left: 0px;
-    width: 45%;
+} 
   
+    .container-right {
+        padding: 0px;
+    }
 }
 
-}
